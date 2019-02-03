@@ -3241,10 +3241,17 @@ input[type="button"].btn-block {
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6; }
+  @media (min-width: 575.98px) {
   .nav-item:hover {
     height: 2px;
     background:#faac01;
     transition: 0.2s;
+  }
+}
+  @media (max-width: 575.98px) {
+    .nav-item:hover {
+
+    }
   }
   .nav-tabs .nav-item {
     margin-bottom: -1px; }
