@@ -37,7 +37,7 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/005-coding.png?13988547481198263680" />
-    
+
 <style>
 body {
 /* The image used */
@@ -324,26 +324,32 @@ a:hover, a:active {
     </section>
 
     <section class="ftco-domain" style="background: url(https://cdn.shopify.com/s/files/1/0161/6107/9360/files/heading-bg-purp.jpg?16297184049423325486)">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-lg-5 heading-white mb-3 mb-sm-4 mb-lg-0 ftco-animate">
-            <h2>Be in the loop</h2>
-            <p>Subscribe to our newsletter for popular posts, news, and updates on the highly anticipated STARTREV 2.0</p>
+        <div class="container">
+          <div class="row d-flex">
+            <div class="col-lg-5 heading-white mb-3 mb-sm-4 mb-lg-0 ftco-animate">
+              <h2>Be in the loop</h2>
+              <p>Subscribe to our newsletter for popular posts, news, and updates on the highly anticipated STARTREV 2.0</p>
+            </div>
+            <div class="col-lg-7 ftco-wrap ftco-animate fadeInUp ftco-animated">
+                <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+                <div class="domain-form d-flex">
+                <div class="form-group domain-name border border-royal-purp">
+                <!-- List token -->
+                <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+                <input type="hidden" name="campaign_token" value="aunyI" />
+                <!-- Email field (required) -->
+                <input type="text" class="form-control name px-4" placeholder="example@email.com" id="emailTwo">
+                </div>
+                <div class="form-group domain-select d-flex">
+                <!-- Subscriber button -->
+                <input id="removeShadow" type="submit" class="search-domain btn btn-primary text-center" value="Subscribe!" onclick="emailSignUpTwo()">
+                </div>
+                </div>
+                <div id="validationResponseTwo" class="resp-message"></div>
+                </div>
           </div>
-          <div class="col-lg-7 ftco-wrap ftco-animate fadeInUp ftco-animated">
-              <div class="domain-form d-flex">
-              <div class="form-group domain-name border border-royal-purp">
-              <input type="text" class="form-control name px-4" placeholder="example@email.com" id="emailTwo">
-              </div>
-              <div class="form-group domain-select d-flex">
-              <input id="removeShadow" type="submit" class="search-domain btn btn-primary text-center" value="Subscribe!" onclick="emailSignUpTwo()">
-              </div>
-              </div>
-              <div id="validationResponseTwo" class="resp-message"></div>
-              </div>
         </div>
-      </div>
-    </section>
+      </section>
 
     <footer class="section footer-classic border border-space-grey" style="background: #000;">
         <div class="container">
