@@ -3250,7 +3250,7 @@ input[type="button"].btn-block {
 }
   @media (max-width: 575.98px) {
     .nav-item:hover {
-
+      background:#faac01;
     }
   }
   .nav-tabs .nav-item {
@@ -7445,10 +7445,10 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored span {
     border-color: #627bed; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: #faac01 }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: #fff !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
