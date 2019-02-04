@@ -6,13 +6,12 @@
     <!-- Title, Description, & Keywords -->
     <title>Contact Us - Start Rev | New Business & General Inquiries | Web Design & Development Company | SEO, eCommerce, & Marketing Services - Los Angeles, CA</title>
     
-    <meta name="description" content="Our team is always open to discussing new projects, creative ideas, or opportunities to be a part of your vision. 
-    We reply to all requests within 24 hours on weekdays.">
+    <meta name="description" content="Our team is always open to discussing new projects, creative ideas, or opportunities to be a part of your vision. We reply to all requests within 24 hours on weekdays.">
     <meta name="keywords"  content="Web design, Website designer, Web designers Los Angeles, Website designers Los Angeles, Web development company, Web development companies Los Angeles, Website design quote, Website design price, Website development costs, Cost of website design, Price for website design,Web page design, Web design agencies Los Angeles, Professional web design Los Angeles" />
 
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Contact Us - Start Rev | New Business & General Inquiries | Web Design & Development Company | SEO, eCommerce, & Marketing Services - Los Angeles, CA" />
-    <meta property="og:description" content="" />
+    <meta property="og:description" content="Our team is always open to discussing new projects, creative ideas, or opportunities to be a part of your vision. We reply to all requests within 24 hours on weekdays." />
 
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -51,9 +50,8 @@ background-size: cover;
 color: white
 }
 nav > .nav.nav-tabs {
-  border: none;
-  color:#fff;
-  background:#272e38;
+  color:#17a2b8;
+  background:#fff;
 }
 nav > div a.nav-item.nav-link,
 nav > div a.nav-item.nav-link.active {
@@ -129,20 +127,19 @@ nav > div a.nav-item.nav-link:focus {
   
     <section class="ftco-section page-section contact-section ftco-degree-bg">
       <div class="container">
-
         <div class="row block-9">
-          <div class="contact-info col-md-6 bg-light mt-2 rounded border border-frost-blue">
+          <div class="contact-info col-md-5 bg-light mt-2 rounded border border-frost-blue">
               <div class="mb-3 mt-1">
                   <span class="subheading frost-blue">Leave us a message.</span>
                   <h2 class="frost-blue">Business Information</h2>
                 </div>
             <p class="text-dark">Our team is always open to discussing new projects, creative ideas, or opportunities to be a part of your vision.
-              <br>We reply to all request within 24 hours on weekdays.
+              <br>We reply to all request within 24-48 hours on weekdays.
             </p>
           
             <dl id="dl-contact" class="contact-list">
               <dt><span class="icon icon-map-marker"></span> Business Address:</dt>
-              <dd id="dd-contact">1500 W Artesia Sq. Gardena, CA USA 90248</dd>
+              <dd id="dd-contact">1500 W Artesia Sq. Gardena, CA 90248 USA</dd>
               <dd id="dd-contact">- Appointments only, no walk ins.</dd>
             </dl>
 
@@ -174,96 +171,103 @@ nav > div a.nav-item.nav-link:focus {
                 </p> -->
             </div>
           
-            <div class="col-md-6">
-              <div class="col-xs-12 ">
+            <div class="col-md-7 mt-2">
                 <nav>
-                  <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">General Inquiry</a>
-                    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">New Project</a>              
+                  <div class="nav nav-tabs nav-fill rounded" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active border border-frost-blue" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">General Inquiry</a>
+                    <a class="nav-item nav-link border border-frost-blue" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">New Project</a>              
                   </div>
                 </nav>
                 <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                   <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                     <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-                      <div class="form-group">
+                      <div class="row m-3 form-group">
                       <!-- First name -->
-                      First Name:
+                      <div class="col-md-6 col-sm-12 d-inline-block">
+                      <p class="text-dark m-0">First Name:</p>
                       <input type="text" name="first_name" class="form-control rounded" placeholder="First Name" required>
+                      </div>
                       <!-- Last name -->
-                      Last Name:
+                      <div class="col-md-6 col-sm-12 d-inline-block">
+                      <p class="text-dark m-0">Last Name:</p>
                       <input type="text" name="last_name" class="form-control rounded" placeholder="Last Name" required>
                       </div>
-                      <div class="form-group">
+                      </div>
+                      <div class="row m-3 form-group">
                       <!-- Email field (required) -->
-                      Email: 
+                      <p class="text-dark m-0">Email:</p> 
                       <input type="text" name="email" class="form-control rounded" placeholder="Your Email" required>
                       </div>
-                      <div clas="form-group">
+                      <div class="row m-3 form-group">
                       <!-- Website URL (optional) -->
-                      URL: 
+                      <p class="text-dark m-0">Website URL: (optional)</p>
                       <input type="text" name="custom_url" class="form-control rounded" placeholder="example.com" value="" />
                       </div>
-                      <div class="form-group">
-                      Your Inquiry:
+                      <div class="row m-3 form-group">
+                      <p class="text-dark m-0">Your Inquiry:</p>
                       <textarea name="custom_comment" id="" cols="30" rows="7" class="form-control rounded" placeholder="Write us a detailed message. We would love to hear from you!"></textarea>
                       </div>
                       <!-- List token -->
                       <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
                       <input type="hidden" name="campaign_token" value="aunyI" />
         
-                      <div class="form-group">
+                      <div class="row m-3 form-group">
                         <!-- Subscriber button -->
-                        <input type="submit" value="Send Message" id="btn-contact" class="col-12 btn btn-primary">
+                        <input type="submit" value="Send Message" id="btn-contact" class="col-6 btn btn-primary">
                       </div>
                     </form>            
                   </div>
                   <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
-                      <div class="form-group">
-                      <!-- First name -->
-                      First Name:
-                      <input type="text" name="first_name" class="form-control rounded" placeholder="First Name" required>
-                      <!-- Last name -->
-                      Last Name:
-                      <input type="text" name="last_name" class="form-control rounded" placeholder="Last Name" required>
-                      </div>
-                      <div class="form-group">
-                      <!-- Email field (required) -->
-                      Email: 
-                      <input type="text" name="email" class="form-control rounded" placeholder="Your Email" required>
-                      </div>
-                      <div clas="form-group">
-                      <!-- Website URL (optional) -->
-                      URL: 
-                      <input type="text" name="custom_url" class="form-control rounded" placeholder="example.com" value="" />
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1">Subject:</label>
-                        <!-- <input type="text" class="form-control rounded" placeholder="Subject"> -->
+                      <div class="row m-3 form-group">
+                          <!-- First name -->
+                          <div class="col-md-6 col-sm-12 d-inline-block">
+                          <p class="text-dark m-0">First Name:</p>
+                          <input type="text" name="first_name" class="form-control rounded" placeholder="First Name" required>
+                          </div>
+                          <!-- Last name -->
+                          <div class="col-md-6 col-sm-12 d-inline-block">
+                          <p class="text-dark m-0">Last Name:</p>
+                          <input type="text" name="last_name" class="form-control rounded" placeholder="Last Name" required>
+                          </div>
+                          </div>
+                          <div class="row m-3 form-group">
+                          <!-- Email field (required) -->
+                          <p class="text-dark m-0">Email:</p> 
+                          <input type="text" name="email" class="form-control rounded" placeholder="Your Email" required>
+                          </div>
+                          <div class="row m-3 form-group">
+                          <!-- Website URL (optional) -->
+                          <p class="text-dark m-0">Website URL: (optional)</p>
+                          <input type="text" name="custom_url" class="form-control rounded" placeholder="example.com" value="" />
+                          </div>
+                          <div class="row m-3 form-group">
+                          <!-- <label for="exampleFormControlSelect1">Subject:</label> -->
+                          <p class="text-dark m-0">Package:</p>
+                          <!-- <input type="text" class="form-control rounded" placeholder="Subject"> -->
                           <select class="form-control" id="exampleFormControlSelect1" required>
                             <option>Select A Package</option>
-                            <option>Ruby-Red</option>
-                            <option>Frost-Blue</option>
-                            <option>Electric-Gold</option>
+                            <option>RUBY RED ($1800) - Static & Portfolio Sites</option>
+                            <option>FROST BLUE ($3500) - Ecommerce & Blog Sites</option>
+                            <option>ELECTRIC GOLD ($7000) - Businesses & Startups</option>
+                            <option>EMERALD GREEN ($1500) - Monthly Marketing & Management</option>
                           </select>
                       </div>
-                      <div class="form-group">
-                      Your Inquiry:
-                      <textarea name="custom_comment" id="" cols="30" rows="7" class="form-control rounded" placeholder="Write us a detailed message. We would love to hear from you!"></textarea>
-                      </div>
+                      <div class="row m-3 form-group">
+                          <p class="text-dark m-0">Project Inquiry:</p>
+                          <textarea name="custom_comment" id="" cols="30" rows="7" class="form-control rounded" placeholder="Write us a detailed message. We would love to hear from you!"></textarea>
+                          </div>
                       <!-- List token -->
                       <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
                       <input type="hidden" name="campaign_token" value="aunyI" />
         
-                      <div class="form-group">
+                      <div class="row m-3 form-group">
                         <!-- Subscriber button -->
-                        <input type="submit" value="Send Message" id="btn-contact" class="col-12 btn btn-primary">
+                        <input type="submit" value="Send Message" id="btn-contact" class="col-6 btn btn-primary">
                       </div>
                     </form>      
                  </div>
                 </div>
-              
-              </div>
             </div>
           </div>
       <div class="row mb-3 contact-info">
@@ -306,7 +310,7 @@ nav > div a.nav-item.nav-link:focus {
             <div class="row row-30">
               <div class="col-md-4 col-xl-5">
                 <div class="mt-3">
-                  <h2 class="ftco-heading-2 d-inline-block">STARTREV</h2>
+                  <h2 class="ftco-heading-2 d-inline-block">START REV</h2>
                   <p>We are focused, dedicated, and driven to be a launchpad for your vision, your dreams, and your inspired imagination.
                      We launch quick, clean, and optimized websites with a Light-Speed x DaVinci Style.
                       </p>
@@ -360,10 +364,10 @@ nav > div a.nav-item.nav-link:focus {
           </div>
           
           <div class="row no-gutters social-container">
-            <div class="col"><span class="social-inner icon mdi">© 2019 STARTREV™ LLC</span></div>
+            <div class="col"><span class="social-inner icon mdi">© 2019 STARTREV LLC</span></div>
             <div class="col"><span class="social-inner icon mdi">All Rights Reserved</span></div>
-            <div class="col"><span class="social-inner icon mdi">- J. WAVES x Southside Blu</span></div>
-            <div class="col"><span class="social-inner icon mdi">STARTREV™</span></div>
+            <div class="col"><span class="social-inner icon mdi">J. WAVES x Southside Blu</span></div>
+            <div class="col"><span class="social-inner icon mdi">START REV ™</span></div>
             <div class="col"><span class="social-inner icon mdi">- Version 2.0</span></div>
           </div>
         </footer>
@@ -373,8 +377,8 @@ nav > div a.nav-item.nav-link:focus {
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <!-- <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script> -->
+  <!-- <script src="js/popper.min.js"></script> -->
+  <!-- <script src="js/bootstrap.min.js"></script> -->
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/jquery.stellar.min.js"></script>
