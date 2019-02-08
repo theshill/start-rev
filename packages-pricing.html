@@ -51,8 +51,7 @@ background-size: cover;
 }
 
 nav > .nav.nav-tabs{
-
-border: none;
+  border: none;
   color:#fff;
   border-radius:0;
 
@@ -66,16 +65,6 @@ nav > div a.nav-item.nav-link.active
   border-radius:0;
 }
 
-nav > div a.nav-item.nav-link.active:after
-{
-content: "";
-position: relative;
-bottom: -50px;
-/* left: -10%; */
-border: 15px solid transparent;
-border-top-color: #db2c29 ;
-}
-
 a#nav-profile-tab.nav-item.nav-link.bg-frost-blue.active.show::after {
 border-top-color: #0192afe3 ;
 }
@@ -85,12 +74,11 @@ border-top-color: #faac01 ;
 a#nav-about-tab.nav-item.nav-link.bg-emerald-green.active.show::after {
 border-top-color: #0f9b0f ;
 }
-.tab-content{
+.tab-content {
   background: #fdfdfd;
   line-height: 25px;
   border: 1px solid #ddd;
   border-bottom: 7px solid #faac01;
-  padding: 30px 25px;
 }
 
 nav > div a.nav-item.nav-link:hover,
@@ -102,7 +90,13 @@ nav > div a.nav-item.nav-link:focus {
   border-radius: 0;
   transition: 0.20s linear;
 }
+.ftco-section .nav-pills .nav-link {
+  font-size: 14px;
+}
 
+.nav-tabs .nav-item {
+  margin: 1px;
+}
 .bg-frost-blue {
   background: #0192afe3 !important;
 }
@@ -149,128 +143,134 @@ background:#faac01 !important;
                 <div class="row slider-text align-items-center justify-content-center" data-scrollax-parent="true">
       
                   <div class="col-md-8 mt-3 text-center col-sm-12 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-                    <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Website <br> Packages & Pricing</h1>
+                    <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Packages & Pricing</h1>
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          <div class="container">
+          <section class="ftco-section">
+              <div class="container">
+                <div class="row justify-content-center mb-3">
+                  <div class="col-md-12 text-center heading-section ftco-animate">
+                    <span class="subheading">Give Your Business Wings</span>
+                    <h2 class="mb-3">Website & Marketing Packages</h2>
+                    <p>Start Rev is committed to designing responsive websites that engage your customers, stimulate traffic, and cultivate your brand.</p>
+                  </div>
+                </div>
                 <div class="row">
-                  <div class="col-xs-12">
-                    <nav>
-                      <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
-                        <a class="col-3 text-left nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" style="background: #db2c29">
-                            <h3 class="title text-light">Ruby Red</h3>
-                            <span class="sub-title">Great for Starters, Portfolio Sites</span>
-                        </a>
-                        <a class="col-3 text-left nav-item nav-link bg-frost-blue" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false" style="background: #0192af" >
-                            <h3 class="title text-light">Frost Blue</h3>
-                            <span class="sub-title">Great for Ecommerce Shops, Blogs</span></a>
-                        <a class="col-3 text-left nav-item nav-link bg-electric-gold" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false" style="background: #faac01">
-                            <h3 class="title text-light">Electric Gold</h3>
-                            <span class="sub-title">Great for Businesses & Startups</span>                        
-                        </a>
-                        <a class="col-3 text-left nav-item nav-link bg-emerald-green" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false" style="background: #0f9b0f">
-                            <h3 class="title text-light">Emerald Green</h3>
-                            <span class="sub-title">Monthly Maintenance & Management</span>                        
-                        </a>
-                      </div>
-                    </nav>
-                    <div class="tab-content py-3 px-3 px-sm-0 bg-dark" id="nav-tabContent">
-                      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                                <main>
-                                  <div class="container">
-                                    <div class="row">
-                                      <div class="col-lg-12 bg-dark">
-                                        <div class="card mb-10 border-0">
-                                          <div class="card-header bg-dark">
-                                          </div>
-                                          <div class="card-body store-body bg-dark">
-                                            <div class="product-info">
-                                                        <div class="row">
-                                                                        <!-- Image -->
-                                                                        <div class="col-12 col-lg-6">
-                                                                            <div class="card bg-light mb-3">
-                                                                                <div class="card-body">
-                                                                                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                                                                                    <div class="carousel-inner">
-                                                                                      <div class="carousel-item active">
-                                                                                          <img src="https://cdn.shopify.com/s/files/1/2000/5593/files/New_Ruby_Red_Template.png?2686836278582976509" class="d-block w-100" alt="...">
-                                                                                      </div>
-                                                                                    </div>
+                  <div class="col-md-12 nav-link-wrap mb-3 ftco-animate">
+                    <div class="nav heading-section ftco-animate nav-pills justify-content-center text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link rounded active bg-ruby-red" id="v-pills-nextgen-tab" data-toggle="pill" href="#v-pills-nextgen" role="tab" aria-controls="v-pills-nextgen" aria-selected="true">
+                        <h5 class="title text-left text-light mb-0">Ruby Red</h5>
+                        <span class="subheading">Basic, Starters, Portfolios</span>
+                      </a>
+                      <a class="nav-link rounded bg-frost-blue" id="v-pills-performance-tab" data-toggle="pill" href="#v-pills-performance" role="tab" aria-controls="v-pills-performance" aria-selected="false">
+                        <h5 class="title text-left text-light mb-0">Frost Blue</h5>
+                        <span class="subheading">E-commerce, Blogs</span>
+                      </a>
+                      <a class="nav-link rounded bg-electric-gold" id="v-pills-effect-tab" data-toggle="pill" href="#v-pills-effect" role="tab" aria-controls="v-pills-effect" aria-selected="false">
+                        <h5 class="title text-left text-light mb-0">Electric Gold</h5>
+                        <span class="subheading">Businesses, Startups</span>
+                      </a>
+                      <a class="nav-link rounded bg-emerald-green" id="v-pills-emerald-green-tab" data-toggle="pill" href="#v-pills-emerald-green" role="tab" aria-controls="v-pills-emerald-green" aria-selected="false">
+                        <h5 class="title text-left text-light mb-0">Emerald Green</h5>
+                        <span class="subheading">Monthly Marketing, Management</span>
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-12 align-items-center ftco-animate">
+                    <div class="tab-content ftco-animate" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-nextgen" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+                          
+                                  <div class="card mb-10 border-0">
+                                    <div class="card-body bg-dark">
+                                      <div class="product-info">
+                                                  <div class="row">
+                                                                  <!-- Image -->
+                                                                  <div class="col-12 col-lg-6">
+                                                                      <div class="card bg-light mb-3">
+                                                                          <div class="card-body">
+                                                                            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                                                              <div class="carousel-inner">
+                                                                                <div class="carousel-item active">
+                                                                                    <img src="https://cdn.shopify.com/s/files/1/2000/5593/files/New_Ruby_Red_Template.png?2686836278582976509" class="d-block w-100" alt="...">
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                          
+                                                                  <!-- Add to cart -->
+                                                                  <div class="col-12 col-lg-6 add_to_cart_block">
+                                                                      <div class="card bg-light mb-3">
+                                                                          <div class="card-body">
+                                                                              <div class="pricingTable5 purple rounded">
+                                                                                  <div class="pricingTable-header">
+                                                                                      <h3 class="title">Ruby-Red</h3>
+                                                                                      <span class="sub-title">Great for Starters, Portfolio Sites</span>
+                                                                                      <span class="year">75% Down</span>
                                                                                   </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                
-                                                                        <!-- Add to cart -->
-                                                                        <div class="col-12 col-lg-6 add_to_cart_block">
-                                                                            <div class="card bg-light mb-3">
-                                                                                <div class="card-body">
-                                                                                    <div class="pricingTable5 purple rounded">
-                                                                                        <div class="pricingTable-header">
-                                                                                            <h3 class="title">Ruby-Red</h3>
-                                                                                            <span class="sub-title">Great for Starters, Portfolio Sites</span>
-                                                                                            <span class="year">75% Down</span>
-                                                                                        </div>
-                                                                                        <div class="price-value">
-                                                                                            <div class="value">
-                                                                                                <span class="currency">$</span>
-                                                                                                <span class="amount">1800<span></span></span>
-                                                                                                <span class="month"></span>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                        <ul class="pricing-content">
-                                                                                            <li>Domain + Hosting</li>
-                                                                                            <li>Static Template Site (7 Pgs)</li>
-                                                                                            <li>Reponsive Design</li>
-                                                                                            <li>SEO Optimization</li>
-                                                                                            <li>Competitive Analysis</li>
-                                                                                            <li>Stock Images (5-10)</li>
-                                                                                            <li>Custom Logo or Redesign</li>
-                                                                                            <li class="disable">Social Media Accounts Setup</li>
-                                                                                            <li class="disable">Photography + Video Production</li>
-                                                                                        </ul>
-                                                                                        <a href="https://startrev.com/contact.html" class="pricingTable-signup rounded">Contact Us</a>
-                                                                                    </div>
-                                                                                
-                                                                                    <div class="text-dark" class="product_rassurance">
-                                                                                        <ul class="list-inline">
-                                                                                            <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>7-12 Days Delivery</li>
-                                                                                            <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
-                                                                                            <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+1 (213) 761-1777</li>
-                                                                                        </ul>
-                                                                                    </div>
-                                                                                    <!-- <div class="text-dark" class="reviews_product p-3 mb-2 ">
-                                                                                        3 reviews
-                                                                                        <i class="fa fa-star"></i>
-                                                                                        <i class="fa fa-star"></i>
-                                                                                        <i class="fa fa-star"></i>
-                                                                                        <i class="fa fa-star"></i>
-                                                                                        <i class="fa fa-star"></i>
-                                                                                        (4/5)
-                                                                                        <a class="pull-right" href="#reviews">View all reviews</a>
-                                                                                    </div> -->
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                            <hr/>
-                                              <div class="product-seller-recommended">
-                                                <div class="product-description mb-5">
-                                                  <h2 class="text-light" class="mb-5">Package Description</h2>
-                                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nemo reiciendis quisquam a quis delectus consectetur ipsa eligendi aliquam earum in vitae voluptate ratione fugiat similique nostrum debitis dolor, ipsam quo officiis quas
-                                                    necessitatibus? Magnam eveniet iure, eligendi est ullam consectetur repellat quis doloremque ad perspiciatis assumenda ducimus distinctio quaerat sit repudiandae illo praesentium modi dolor. Veritatis aperiam, minima natus assumenda
-                                                    ipsum voluptatem reprehenderit? Possimus nobis, voluptate, blanditiis, temporibus ad nostrum corrupti quos corporis voluptas tempora aliquid magnam quia voluptatem rerum odit fugiat facere necessitatibus adipisci sunt. Veritatis architecto,
-                                                    perferendis labore sit nobis eaque perspiciatis et iusto, in doloribus est!</p>
-                                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vel reiciendis voluptatibus assumenda tempora vitae aut adipisci harum, corporis in id perferendis quia repellat reprehenderit temporibus aspernatur ab ullam magni error
-                                                    consectetur, facilis inventore ipsum, veniam voluptas. Error laboriosam atque quisquam facere esse repellat consectetur quos eum, quaerat blanditiis saepe?</p>
-                                                </div>
-                                                <hr />
-                                                <div class="product-faq mb-5">
+                                                                                  <div class="price-value">
+                                                                                      <div class="value">
+                                                                                          <span class="currency">$</span>
+                                                                                          <span class="amount">1800<span></span></span>
+                                                                                          <span class="month"></span>
+                                                                                      </div>
+                                                                                  </div>
+                                                                                  <ul class="pricing-content">
+                                                                                      <li>Domain + Hosting</li>
+                                                                                      <li>Static Template Site (7 Pgs)</li>
+                                                                                      <li>Reponsive Design</li>
+                                                                                      <li>SEO Optimization</li>
+                                                                                      <li>Competitive Analysis</li>
+                                                                                      <li>Stock Images (5-10)</li>
+                                                                                      <li>Custom Logo or Redesign</li>
+                                                                                      <li class="disable">Social Media Accounts Setup</li>
+                                                                                      <li class="disable">Photography + Video Production</li>
+                                                                                  </ul>
+                                                                                  <a href="contact.html" class="pricingTable-signup rounded">Contact Us</a>
+                                                                              </div>
+                                                                          
+                                                                              <div class="text-dark" class="product_rassurance">
+                                                                                  <ul class="list-inline">
+                                                                                      <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>7-12 Days Delivery</li>
+                                                                                      <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
+                                                                                      <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+1 (213) 761-1777</li>
+                                                                                  </ul>
+                                                                              </div>
+                                                                          </div>
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+      
+                                      <hr/>
+                                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-ruby-red active" id="description-ruby-red-tab" data-toggle="tab" href="#description-ruby-red" role="tab" aria-controls="description-ruby-red" aria-selected="true">Description</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-ruby-red" id="reviews-ruby-red-tab" data-toggle="tab" href="#reviews-ruby-red" role="tab" aria-controls="reviews-ruby-red" aria-selected="false">Reviews</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-ruby-red" id="questions-answers-ruby-red-tab" data-toggle="tab" href="#questions-answers-ruby-red" role="tab" aria-controls="questions-answers-ruby-red" aria-selected="false">Questions & Answers</a>
+                                          </li>
+                                        </ul>
+                                        <div class="tab-content bg-dark" id="myTabContent">
+                                          <div class="tab-pane fade show active" id="description-ruby-red" role="tabpanel" aria-labelledby="description-ruby-red-tab">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nemo reiciendis quisquam a quis delectus consectetur ipsa eligendi aliquam earum in vitae voluptate ratione fugiat similique nostrum debitis dolor, ipsam quo officiis quas
+                                              necessitatibus? Magnam eveniet iure, eligendi est ullam consectetur repellat quis doloremque ad perspiciatis assumenda ducimus distinctio quaerat sit repudiandae illo praesentium modi dolor. Veritatis aperiam, minima natus assumenda
+                                              ipsum voluptatem reprehenderit? Possimus nobis, voluptate, blanditiis, temporibus ad nostrum corrupti quos corporis voluptas tempora aliquid magnam quia voluptatem rerum odit fugiat facere necessitatibus adipisci sunt. Veritatis architecto,
+                                              perferendis labore sit nobis eaque perspiciatis et iusto, in doloribus est!</p>
+                                          </div>
+                                          <div class="tab-pane fade" id="reviews-ruby-red" role="tabpanel" aria-labelledby="reviews-ruby-red-tab">
+                                          
+                                          </div>
+                                          <div class="tab-pane fade" id="questions-answers-ruby-red" role="tabpanel" aria-labelledby="questions-answers-ruby-red-tab">
+                                              <div class="product-faq mb-5">
                                                   <h2 class="text-light" class="mb-3">Questions & Answers</h2>
                                                   <div class="main-questions d-inline" data-container="body" data-toggle="popover" data-placement="right" data-content="Are you in doubt? these shortcuts can help you!">
                                                     <a href="#" class="btn btn-outline-primary">Cost and Delivery time</a>
@@ -288,396 +288,375 @@ background:#faac01 !important;
                                                     <li><i class="fa fa-comment"></i> <span> What is the delivery time?</span></li>
                                                   </ol>
                                                 </div>
-                                              </div>
+                                          </div>
+                                        </div>
+                                      </div>                                 
+                                    </div>
+                                  </div>
+                                </div>
 
-                                            </div>                                 
+                      <!-- Frost Blue -->
+                      <div class="tab-pane fade" id="v-pills-performance" role="tabpanel" aria-labelledby="v-pills-performance-tab">
+                          <div class="card mb-10 border-0">
+                              <div class="card-body bg-dark">
+                                <div class="product-info">
+                                            <div class="row">
+                                                            <!-- Image -->
+                                                            <div class="col-12 col-lg-6">
+                                                                <div class="card bg-light mb-3">
+                                                                    <div class="card-body">
+                                                                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                                                        <div class="carousel-inner">
+                                                                          <div class="carousel-item active">
+                                                                              <img src="https://cdn.shopify.com/s/files/1/2000/5593/files/Frost_Blue_Template.png?2686836278582976509" class="d-block w-100" alt="...">
+                                                                          </div>
+                                                                        </div>
+                                                                      </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    
+                                                            <!-- Add to cart -->
+                                                            <div class="col-12 col-lg-6 add_to_cart_block">
+                                                                <div class="card bg-light mb-3">
+                                                                    <div class="card-body">
+                                                                        <div class="pricingTable5 blue rounded">
+                                                                            <div class="pricingTable-header">
+                                                                                <h3 class="title">Frost-Blue</h3>
+                                                                                <span class="sub-title">Great for eCommerce Shops, Blogs</span>
+                                                                                <span class="year">50% Down</span>
+                                                                            </div>
+                                                                            <div class="price-value">
+                                                                                <div class="value">
+                                                                                    <span class="currency">$</span>
+                                                                                    <span class="amount">3500<span></span></span>
+                                                                                    <span class="month"></span>
+                                                                                </div>
+                                                                            </div>
+                                                                            <ul class="pricing-content">
+                                                                                <li>Domain + Hosting</li>
+                                                                                <li>eCommerce Site (14 Pgs)</li>
+                                                                                <li>Reponsive Design</li>
+                                                                                <li>SEO Optimization</li>
+                                                                                <li>Competitive Analysis</li>
+                                                                                <li>Stock Images (10-15)</li>
+                                                                                <li>Custom Logo or Redesign</li>
+                                                                                <li>Social Media Accounts Setup</li>
+                                                                                <li class="disable">Photography + Video Production</li>
+                                                                            </ul>
+                                                                            <a href="contact.html" class="pricingTable-signup rounded">Contact Us</a>
+                                                                        </div>
+                                                             
+                                                                        <div class="text-dark" class="product_rassurance">
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>13-18 Days Delivery</li>
+                                                                                <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
+                                                                                <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+1 (213) 761-1777</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr/>
+                                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-frost-blue active" id="description-frost-blue-tab" data-toggle="tab" href="#description-frost-blue" role="tab" aria-controls="description-frost-blue" aria-selected="true">Description</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-frost-blue" id="reviews-frost-blue-tab" data-toggle="tab" href="#reviews-frost-blue" role="tab" aria-controls="reviews-frost-blue" aria-selected="false">Reviews</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-frost-blue" id="questions-answers-frost-blue-tab" data-toggle="tab" href="#questions-answers-frost-blue" role="tab" aria-controls="questions-answers-frost-blue" aria-selected="false">Questions & Answers</a>
+                                          </li>
+                                        </ul>
+                                        <div class="tab-content bg-dark" id="myTabContent">
+                                          <div class="tab-pane fade show active" id="description-frost-blue" role="tabpanel" aria-labelledby="description-frost-blue-tab">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nemo reiciendis quisquam a quis delectus consectetur ipsa eligendi aliquam earum in vitae voluptate ratione fugiat similique nostrum debitis dolor, ipsam quo officiis quas
+                                              necessitatibus? Magnam eveniet iure, eligendi est ullam consectetur repellat quis doloremque ad perspiciatis assumenda ducimus distinctio quaerat sit repudiandae illo praesentium modi dolor. Veritatis aperiam, minima natus assumenda
+                                              ipsum voluptatem reprehenderit? Possimus nobis, voluptate, blanditiis, temporibus ad nostrum corrupti quos corporis voluptas tempora aliquid magnam quia voluptatem rerum odit fugiat facere necessitatibus adipisci sunt. Veritatis architecto,
+                                              perferendis labore sit nobis eaque perspiciatis et iusto, in doloribus est!</p>
+                                          </div>
+                                          <div class="tab-pane fade" id="reviews-frost-blue" role="tabpanel" aria-labelledby="reviews-frost-blue-tab">
+                                              
+                                          </div>
+                                          <div class="tab-pane fade" id="questions-answers-frost-blue" role="tabpanel" aria-labelledby="questions-answers-frost-blue-tab">
+                                              <div class="product-faq mb-5">
+                                                  <h2 class="text-light" class="mb-3">Questions & Answers</h2>
+                                                  <div class="main-questions d-inline" data-container="body" data-toggle="popover" data-placement="right" data-content="Are you in doubt? these shortcuts can help you!">
+                                                    <a href="#" class="btn btn-outline-primary">Cost and Delivery time</a>
+                                                    <a href="#" class="btn btn-outline-primary">Payment options</a>
+                                                  </div>
+                                                </div>
+                                                <div class="product-comments">
+                                                        <h5 class="text-light" class="mb-2">Got questions? We are here to help.</h5>
+                                                        <form action="" class="form-inline mb-5">
+                                                    <textarea name="" id="" cols="50" rows="2" class="form-control mr-4" placeholder="Ask a question"></textarea><button class="btn btn-lg btn-primary">Submit Your Question</button>
+                                                  </form>
+                                                  <h5 class="text-light" class="mb-5">General Questions</h5>
+                                                  <ol class="list-unstyled last-questions-list">
+                                                    <li><i class="fa fa-comment"></i> <span> Could I pay with a credit card?</span></li>
+                                                    <li><i class="fa fa-comment"></i> <span> What is the delivery time?</span></li>
+                                                  </ol>
+                                                </div>
                                           </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-                                </main>
-                      </div>
-                      
-                      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                        <main>
-                          <div class="container">
-                            <div class="row">
-                              <div class="col-lg-12 bg-dark">
-                                <div class="card mb-10 border-0">
-                                  <div class="card-header bg-dark">
-                                  </div>
-                                  <div class="card-body store-body bg-dark">
-                                    <div class="product-info">
-                                                <div class="row">
-                                                                <!-- Image -->
-                                                                <div class="col-12 col-lg-6">
-                                                                    <div class="card bg-light mb-3">
-                                                                        <div class="card-body">
-                                                                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                                                                            <div class="carousel-inner">
-                                                                              <div class="carousel-item active">
-                                                                                  <img src="https://cdn.shopify.com/s/files/1/2000/5593/files/Frost_Blue_Template.png?2686836278582976509" class="d-block w-100" alt="...">
-                                                                              </div>
-                                                                            </div>
+                                </div>
+
+                      <!-- Electric Gold -->
+                      <div class="tab-pane fade" id="v-pills-effect" role="tabpanel" aria-labelledby="v-pills-effect-tab">
+                          <div class="card mb-10 border-0">
+                              <div class="card-body bg-dark">
+                                <div class="product-info">
+                                            <div class="row">
+                                                            <!-- Image -->
+                                                            <div class="col-12 col-lg-6">
+                                                                <div class="card bg-light mb-3">
+                                                                    <div class="card-body">
+                                                                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                                                        <ol class="carousel-indicators">
+                                                                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                                                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                                                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                                                        </ol>
+                                                                        <div class="carousel-inner">
+                                                                          <div class="carousel-item active">
+                                                                            <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/cajonga-site.png?8341952694765987052" class="d-block w-100" alt="...">
+                                                                          </div>
+                                                                          <div class="carousel-item">
+                                                                            <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/Screen_Shot_2019-02-01_at_16.49.00.png?2483172835849972414" class="d-block w-100" alt="...">
+                                                                          </div>
+                                                                          <div class="carousel-item">
+                                                                            <img src="https://cdn.shopify.com/s/files/1/2000/5593/files/Screen_Shot_2019-01-29_at_3.12.22_PM.png?13864820555525771890" class="d-block w-100" alt="...">
                                                                           </div>
                                                                         </div>
+                                                                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                          <span class="sr-only">Previous</span>
+                                                                        </a>
+                                                                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                          <span class="sr-only">Next</span>
+                                                                        </a>
+                                                                      </div>
                                                                     </div>
                                                                 </div>
-                                                        
-                                                                <!-- Add to cart -->
-                                                                <div class="col-12 col-lg-6 add_to_cart_block">
-                                                                    <div class="card bg-light mb-3">
-                                                                        <div class="card-body">
-                                                                            <div class="pricingTable5 blue rounded">
-                                                                                <div class="pricingTable-header">
-                                                                                    <h3 class="title">Frost-Blue</h3>
-                                                                                    <span class="sub-title">Great for eCommerce Shops, Blogs</span>
-                                                                                    <span class="year">50% Down</span>
-                                                                                </div>
-                                                                                <div class="price-value">
-                                                                                    <div class="value">
-                                                                                        <span class="currency">$</span>
-                                                                                        <span class="amount">3500<span></span></span>
-                                                                                        <span class="month"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <ul class="pricing-content">
-                                                                                    <li>Domain + Hosting</li>
-                                                                                    <li>eCommerce Site (14 Pgs)</li>
-                                                                                    <li>Reponsive Design</li>
-                                                                                    <li>SEO Optimization</li>
-                                                                                    <li>Competitive Analysis</li>
-                                                                                    <li>Stock Images (10-15)</li>
-                                                                                    <li>Custom Logo or Redesign</li>
-                                                                                    <li>Social Media Accounts Setup</li>
-                                                                                    <li class="disable">Photography + Video Production</li>
-                                                                                </ul>
-                                                                                <a href="https://startrev.com/contact.html" class="pricingTable-signup rounded">Contact Us</a>
+                                                            </div>
+                                                    
+                                                            <!-- Add to cart -->
+                                                            <div class="col-12 col-lg-6 add_to_cart_block">
+                                                                <div class="card bg-light mb-3">
+                                                                    <div class="card-body">
+                                                                        <div class="pricingTable5 rounded">
+                                                                            <div class="pricingTable-header">
+                                                                                <h3 class="title">Electric-Gold</h3>
+                                                                                <span class="sub-title">Great for Businesses & Startups</span>
+                                                                                <span class="year">50% Down</span>
                                                                             </div>
-                                                                 
-                                                                            <div class="text-dark" class="product_rassurance">
-                                                                                <ul class="list-inline">
-                                                                                    <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>13-18 Days Delivery</li>
-                                                                                    <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
-                                                                                    <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+1 (213) 761-1777</li>
-                                                                                </ul>
+                                                                            <div class="price-value">
+                                                                                <div class="value">
+                                                                                    <span class="currency">$</span>
+                                                                                    <span class="amount">7000<span></span></span>
+                                                                                    <span class="month"></span>
+                                                                                </div>
                                                                             </div>
-                                                                            <!-- <div class="text-dark" class="reviews_product p-3 mb-2 ">
-                                                                                3 reviews
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                (4/5)
-                                                                                <a class="pull-right" href="#reviews">View all reviews</a>
-                                                                            </div> -->
+                                                                            <ul class="pricing-content">
+                                                                                <li>Domain + Hosting</li>
+                                                                                <li>Built From Scratch (21 Pgs)</li>
+                                                                                <li>Reponsive Design</li>
+                                                                                <li>SEO Optimization</li>
+                                                                                <li>Competitive Analysis</li>
+                                                                                <li>Stock Images (15-25)</li>
+                                                                                <li>Custom Logo or Redesign</li>
+                                                                                <li>Social Media Accounts Setup</li>
+                                                                                <li>Photography + Video Production</li>
+                                                                            </ul>
+                                                                            <a href="contact.html" class="pricingTable-signup rounded">Contact Us</a>
+                                                                        </div>
+                                                                     
+                                                                        <div class="text-dark" class="product_rassurance">
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>19-24 Days Delivery</li>
+                                                                                <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
+                                                                                <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+1 (213) 761-1777</li>
+                                                                            </ul>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <hr/>
-                                                            <div class="product-seller-recommended">
-                                                              <div class="product-description mb-5">
-                                                                <h2 class="text-light" class="mb-5">Package Description</h2>
-                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nemo reiciendis quisquam a quis delectus consectetur ipsa eligendi aliquam earum in vitae voluptate ratione fugiat similique nostrum debitis dolor, ipsam quo officiis quas
-                                                                  necessitatibus? Magnam eveniet iure, eligendi est ullam consectetur repellat quis doloremque ad perspiciatis assumenda ducimus distinctio quaerat sit repudiandae illo praesentium modi dolor. Veritatis aperiam, minima natus assumenda
-                                                                  ipsum voluptatem reprehenderit? Possimus nobis, voluptate, blanditiis, temporibus ad nostrum corrupti quos corporis voluptas tempora aliquid magnam quia voluptatem rerum odit fugiat facere necessitatibus adipisci sunt. Veritatis architecto,
-                                                                  perferendis labore sit nobis eaque perspiciatis et iusto, in doloribus est!</p>
-                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vel reiciendis voluptatibus assumenda tempora vitae aut adipisci harum, corporis in id perferendis quia repellat reprehenderit temporibus aspernatur ab ullam magni error
-                                                                  consectetur, facilis inventore ipsum, veniam voluptas. Error laboriosam atque quisquam facere esse repellat consectetur quos eum, quaerat blanditiis saepe?</p>
-                                                              </div>
-                                                              <hr />
-                                                              <div class="product-faq mb-5">
-                                                                <h2 class="text-light" class="mb-3">Questions & Answers</h2>
-                                                                <div class="main-questions d-inline" data-container="body" data-toggle="popover" data-placement="right" data-content="Are you in doubt? these shortcuts can help you!">
-                                                                </div>
-                                                              </div>
-                                                              <div class="product-comments">
-                                                                      <h5 class="text-light" class="mb-2">Got questions? We are here to help.</h5>
-                                                                      <form action="" class="form-inline mb-5">
-                                                                  <textarea name="" id="" cols="50" rows="2" class="form-control mr-4" placeholder="Ask a question"></textarea><button class="btn btn-lg btn-primary">Submit Your Question</button>
-                                                                </form>
-                                                                <h5 class="text-light" class="mb-5">General Questions</h5>
-                                                                <ol class="list-unstyled last-questions-list">
-                                                                  <li><i class="fa fa-comment"></i> <span> Could I pay with a credit card?</span></li>
-                                                                  <li><i class="fa fa-comment"></i> <span> What is the delivery time?</span></li>
-                                                                </ol>
-                                                              </div>
-                                                            </div>
-                                    </div>                                 
-                                  </div>
-                                </div>
+                                                        </div>
+                                                        <hr/>
+                                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-electric-gold active" id="description-electric-gold-tab" data-toggle="tab" href="#description-electric-gold-tab" role="tab" aria-controls="description-electric-gold" aria-selected="true">Description</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-electric-gold" id="reviews-electric-gold-tab" data-toggle="tab" href="#reviews-electric-gold" role="tab" aria-controls="reviews-electric-gold" aria-selected="false">Reviews</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-electric-gold" id="questions-answers-electric-gold-tab" data-toggle="tab" href="#questions-answers-electric-gold" role="tab" aria-controls="questions-answers-electric-gold" aria-selected="false">Questions & Answers</a>
+                                          </li>
+                                        </ul>
+                                        <div class="tab-content bg-dark" id="myTabContent">
+                                          <div class="tab-pane fade show active" id="description-electric-gold" role="tabpanel" aria-labelledby="description-electric-gold-tab">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nemo reiciendis quisquam a quis delectus consectetur ipsa eligendi aliquam earum in vitae voluptate ratione fugiat similique nostrum debitis dolor, ipsam quo officiis quas
+                                              necessitatibus? Magnam eveniet iure, eligendi est ullam consectetur repellat quis doloremque ad perspiciatis assumenda ducimus distinctio quaerat sit repudiandae illo praesentium modi dolor. Veritatis aperiam, minima natus assumenda
+                                              ipsum voluptatem reprehenderit? Possimus nobis, voluptate, blanditiis, temporibus ad nostrum corrupti quos corporis voluptas tempora aliquid magnam quia voluptatem rerum odit fugiat facere necessitatibus adipisci sunt. Veritatis architecto,
+                                              perferendis labore sit nobis eaque perspiciatis et iusto, in doloribus est!</p>
+                                          </div>
+                                          <div class="tab-pane fade" id="reviews-electric-gold" role="tabpanel" aria-labelledby="reviews-electric-gold-tab">
+                                              
+                                          </div>
+                                          <div class="tab-pane fade" id="questions-answers-electric-gold" role="tabpanel" aria-labelledby="questions-answers-electric-gold-tab">
+                                              <div class="product-faq mb-5">
+                                                  <h2 class="text-light" class="mb-3">Questions & Answers</h2>
+                                                  <div class="main-questions d-inline" data-container="body" data-toggle="popover" data-placement="right" data-content="Are you in doubt? these shortcuts can help you!">
+                                                    <a href="#" class="btn btn-outline-primary">Cost and Delivery time</a>
+                                                    <a href="#" class="btn btn-outline-primary">Payment options</a>
+                                                  </div>
+                                                </div>
+                                                <div class="product-comments">
+                                                        <h5 class="text-light" class="mb-2">Got questions? We are here to help.</h5>
+                                                        <form action="" class="form-inline mb-5">
+                                                    <textarea name="" id="" cols="50" rows="2" class="form-control mr-4" placeholder="Ask a question"></textarea><button class="btn btn-lg btn-primary">Submit Your Question</button>
+                                                  </form>
+                                                  <h5 class="text-light" class="mb-5">General Questions</h5>
+                                                  <ol class="list-unstyled last-questions-list">
+                                                    <li><i class="fa fa-comment"></i> <span> Could I pay with a credit card?</span></li>
+                                                    <li><i class="fa fa-comment"></i> <span> What is the delivery time?</span></li>
+                                                  </ol>
+                                                </div>
+                                          </div>
+                                        </div>
+                                </div>                                 
                               </div>
                             </div>
-                          </div>
-                        </main>           
-                       </div>
-                      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                        <main>
-                          <div class="container">
-                            <div class="row">
-                              <div class="col-lg-12 bg-dark">
-                                <div class="card mb-10 border-0">
-                                  <div class="card-header bg-dark">
-                                  </div>
-                                  <div class="card-body store-body bg-dark">
-                                    <div class="product-info">
-                                                <div class="row">
-                                                                <!-- Image -->
-                                                                <div class="col-12 col-lg-6">
-                                                                    <div class="card bg-light mb-3">
-                                                                        <div class="card-body">
-                                                                          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                                                            <ol class="carousel-indicators">
-                                                                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                                                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                                                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                                                            </ol>
-                                                                            <div class="carousel-inner">
-                                                                              <div class="carousel-item active">
-                                                                                <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/cajonga-site.png?8341952694765987052" class="d-block w-100" alt="Cajonga's Website">
-                                                                              </div>
-                                                                              <div class="carousel-item">
-                                                                                <img src="https://cdn.shopify.com/s/files/1/0161/6107/9360/files/Screen_Shot_2019-02-01_at_16.49.00.png?7810862308099056609" class="d-block w-100" alt="Cajonga's Blog">
-                                                                              </div>
-                                                                              <div class="carousel-item">
-                                                                                <img src="https://cdn.shopify.com/s/files/1/2000/5593/files/Screen_Shot_2019-01-29_at_3.12.22_PM.png?13864820555525771890" class="d-block w-100" alt="...">
-                                                                              </div>
-                                                                            </div>
-                                                                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                                              <span class="sr-only">Previous</span>
-                                                                            </a>
-                                                                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                                              <span class="sr-only">Next</span>
-                                                                            </a>
-                                                                          </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                        
-                                                                <!-- Add to cart -->
-                                                                <div class="col-12 col-lg-6 add_to_cart_block">
-                                                                    <div class="card bg-light mb-3">
-                                                                        <div class="card-body">
-                                                                            <div class="pricingTable5 rounded">
-                                                                                <div class="pricingTable-header">
-                                                                                    <h3 class="title">Electric-Gold</h3>
-                                                                                    <span class="sub-title">Great for Businesses &amp; Startups</span>
-                                                                                    <span class="year">50% Down</span>
-                                                                                </div>
-                                                                                <div class="price-value">
-                                                                                    <div class="value">
-                                                                                        <span class="currency">$</span>
-                                                                                        <span class="amount">7000<span></span></span>
-                                                                                        <span class="month"></span>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <ul class="pricing-content">
-                                                                                    <li>Domain + Hosting</li>
-                                                                                    <li>Built From Scratch (21 Pgs)</li>
-                                                                                    <li>Reponsive Design</li>
-                                                                                    <li>SEO Optimization</li>
-                                                                                    <li>Competitive Analysis</li>
-                                                                                    <li>Stock Images (15-25)</li>
-                                                                                    <li>Custom Logo or Redesign</li>
-                                                                                    <li>Social Media Accounts Setup</li>
-                                                                                    <li>Photography + Video Production</li>
-                                                                                </ul>
-                                                                                <a href="https://startrev.com/contact.html" class="pricingTable-signup rounded">Contact us</a>
-                                                                            </div>
-                                                                         
-                                                                            <div class="text-dark" class="product_rassurance">
-                                                                                <ul class="list-inline">
-                                                                                    <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>19-24 Days Delivery</li>
-                                                                                    <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
-                                                                                    <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+1 (213) 761-1777</li>
-                                                                                </ul>
-                                                                            </div>
-                                                                            <!-- <div class="text-dark" class="reviews_product p-3 mb-2 ">
-                                                                                3 reviews
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                (4/5)
-                                                                                <a class="pull-right" href="#reviews">View all reviews</a>
-                                                                            </div> -->
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <hr/>
-                                                            <div class="product-seller-recommended">
-                                                              <div class="product-description mb-5">
-                                                                <h2 class="text-light" class="mb-5">Package Description</h2>
-                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nemo reiciendis quisquam a quis delectus consectetur ipsa eligendi aliquam earum in vitae voluptate ratione fugiat similique nostrum debitis dolor, ipsam quo officiis quas
-                                                                  necessitatibus? Magnam eveniet iure, eligendi est ullam consectetur repellat quis doloremque ad perspiciatis assumenda ducimus distinctio quaerat sit repudiandae illo praesentium modi dolor. Veritatis aperiam, minima natus assumenda
-                                                                  ipsum voluptatem reprehenderit? Possimus nobis, voluptate, blanditiis, temporibus ad nostrum corrupti quos corporis voluptas tempora aliquid magnam quia voluptatem rerum odit fugiat facere necessitatibus adipisci sunt. Veritatis architecto,
-                                                                  perferendis labore sit nobis eaque perspiciatis et iusto, in doloribus est!</p>
-                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vel reiciendis voluptatibus assumenda tempora vitae aut adipisci harum, corporis in id perferendis quia repellat reprehenderit temporibus aspernatur ab ullam magni error
-                                                                  consectetur, facilis inventore ipsum, veniam voluptas. Error laboriosam atque quisquam facere esse repellat consectetur quos eum, quaerat blanditiis saepe?</p>
-                                                              </div>
-                                                              <hr />
-                                                              <div class="product-faq mb-5">
-                                                                <h2 class="text-light" class="mb-3">Questions & Answers</h2>
-                                                                <div class="main-questions d-inline" data-container="body" data-toggle="popover" data-placement="right" data-content="Are you in doubt? these shortcuts can help you!">
-                                                                  <a href="#" class="btn btn-outline-primary">Cost and Delivery time</a>
-                                                                  <a href="#" class="btn btn-outline-primary">Payment options</a>
-                                                                </div>
-                                                              </div>
-                                                              <div class="product-comments">
-                                                                      <h5 class="text-light" class="mb-2">Got questions? We are here to help.</h5>
-                                                                      <form action="" class="form-inline mb-5">
-                                                                  <textarea name="" id="" cols="50" rows="2" class="form-control mr-4" placeholder="Ask a question"></textarea><button class="btn btn-lg btn-primary">Submit Your Question</button>
-                                                                </form>
-                                                                <h5 class="text-light" class="mb-5">General Questions</h5>
-                                                                <ol class="list-unstyled last-questions-list">
-                                                                  <li><i class="fa fa-comment"></i> <span> Could I pay with a credit card?</span></li>
-                                                                  <li><i class="fa fa-comment"></i> <span> What is the delivery time?</span></li>
-                                                                </ol>
-                                                              </div>
-                                                            </div>
-                                    </div>                                 
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </main>            
                       </div>
-                      <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
-                        <main>
-                          <div class="container">
-                            <div class="row">
-                              <div class="col-lg-12 bg-dark">
-                                <div class="card mb-10 border-0">
-                                  <div class="card-header bg-dark">
-                                  </div>
-                                  <div class="card-body store-body bg-dark">
-                                    <div class="product-info">
-                                                <div class="row">
-                                                                <!-- Image -->
-                                                                <div class="col-12 col-lg-6">
-                                                                    <div class="card bg-light mb-3">
-                                                                        <div class="card-body">
-                                                                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                                                                            <div class="carousel-inner">
-                                                                              <div class="carousel-item active">
-                                                                                  <img src="https://cdn.shopify.com/s/files/1/2000/5593/files/emerald_greenphoto.png?2686836278582976509" class="d-block w-100" alt="...">
-                                                                              </div>
-                                                                            </div>
+
+                      <!-- Emerald Green -->
+                      <div class="tab-pane fade" id="v-pills-emerald-green" role="tabpanel" aria-labelledby="v-pills-emerald-green-tab">
+                          <div class="card mb-10 border-0">
+                              <div class="card-body bg-dark">
+                                <div class="product-info">
+                                            <div class="row">
+                                                            <!-- Image -->
+                                                            <div class="col-12 col-lg-6">
+                                                                <div class="card bg-light mb-3">
+                                                                    <div class="card-body">
+                                                                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                                                        <div class="carousel-inner">
+                                                                          <div class="carousel-item active">
+                                                                              <img src="https://cdn.shopify.com/s/files/1/2000/5593/files/emerald_greenphoto.png?2686836278582976509" class="d-block w-100" alt="...">
                                                                           </div>
                                                                         </div>
+                                                                      </div>
                                                                     </div>
                                                                 </div>
-                                                        
-                                                                <!-- Add to cart -->
-                                                                <div class="col-12 col-lg-6 add_to_cart_block">
-                                                                    <div class="card bg-light mb-3">
-                                                                        <div class="card-body">
-                                                                            <div class="pricingTable5 green rounded">
-                                                                                <div class="pricingTable-header">
-                                                                                    <h3 class="title">Emerald-Green</h3>
-                                                                                    <span class="sub-title">Monthly Maintenance &amp; Management</span>
+                                                            </div>
+                                                    
+                                                            <!-- Add to cart -->
+                                                            <div class="col-12 col-lg-6 add_to_cart_block">
+                                                                <div class="card bg-light mb-3">
+                                                                    <div class="card-body">
+                                                                        <div class="pricingTable5 green rounded">
+                                                                            <div class="pricingTable-header">
+                                                                                <h3 class="title">Emerald-Green</h3>
+                                                                                <span class="sub-title">Monthly Maintenance &amp; Management</span>
+                                                                            </div>
+                                                                            <div class="col-md-12 text-center">
+                                                                            <div class="price-value">
+                                                                                <div class="value">
+                                                                                    <span class="currency">$</span>
+                                                                                    <span class="amount">1500<span></span></span>
+                                                                                    <span class="month">/Monthly</span>
                                                                                 </div>
-                                                                                <div class="col-md-12 text-center">
-                                                                                <div class="price-value">
-                                                                                    <div class="value">
-                                                                                        <span class="currency">$</span>
-                                                                                        <span class="amount">1500<span></span></span>
-                                                                                        <span class="month">/Monthly</span>
-                                                                                    </div>
-                                                                                </div>
-                                                                              </div>
-                                                                                <div class="col-md-6 d-inline-block float-left">
+                                                                            </div>
+                                                                          </div>
+                                                                            <div class="col-md-6 d-inline-block float-left">
+                                                                                <ul class="pricing-content">
+                                                                                    <li>Marketing Plan/Strategy</li>
+                                                                                    <li>Email Marketing</li>
+                                                                                    <li>Social Media Marketing (SMM)</li>
+                                                                                    <li>Search Engine Marketing (SEM)</li>                                
+                                                                                  </ul>
+                                                                                  </div>
+                                                                                  <div class="col-md-6 d-inline-block float-right">
                                                                                     <ul class="pricing-content">
-                                                                                        <li>Marketing Plan/Strategy</li>
-                                                                                        <li>Email Marketing</li>
-                                                                                        <li>Social Media Marketing (SMM)</li>
-                                                                                        <li>Search Engine Marketing (SEM)</li>                                
-                                                                                      </ul>
-                                                                                      </div>
-                                                                                      <div class="col-md-6 d-inline-block float-right">
-                                                                                        <ul class="pricing-content">
-                                                                                          <li>Website Maintenance</li>
-                                                                                          <li>Content Edits, Updates</li>                                
-                                                                                          <li>Data & Analytic Reports</li>                                
-                                                                                        </ul>
-                                                                                        </div>
-                                                                                <a href="https://startrev.com/contact.html" class="pricingTable-signup rounded">Contact Us</a>
-                                                                            </div>
-                                                                        
-                                                                            <div class="text-dark" class="product_rassurance">
-                                                                                <ul class="list-inline">
-                                                                                    <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>Monthly Maintenance Plan</li>
-                                                                                    <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
-                                                                                    <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+1 (213) 761-1777</li>
-                                                                                </ul>
-                                                                            </div>
-                                                                            <!-- <div class="text-dark" class="reviews_product p-3 mb-2 ">
-                                                                                3 reviews
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                <i class="fa fa-star"></i>
-                                                                                (4/5)
-                                                                                <a class="pull-right" href="#reviews">View all reviews</a>
-                                                                            </div> -->
+                                                                                      <li>Website Maintenance</li>
+                                                                                      <li>Content Edits, Updates</li>                                
+                                                                                      <li>Data & Analytic Reports</li>                                
+                                                                                    </ul>
+                                                                                    </div>
+                                                                            <a href="contact.html" class="pricingTable-signup rounded">Contact Us</a>
+                                                                        </div>
+                                                                    
+                                                                        <div class="text-dark" class="product_rassurance">
+                                                                            <ul class="list-inline">
+                                                                                <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>Monthly Maintenance Plan</li>
+                                                                                <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
+                                                                                <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+1 (213) 761-1777</li>
+                                                                            </ul>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <hr/>
-                                                            <div class="product-seller-recommended">
-                                                              <div class="product-description mb-5">
-                                                                <h2 class="text-light" class="mb-5">Package Description</h2>
-                                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nemo reiciendis quisquam a quis delectus consectetur ipsa eligendi aliquam earum in vitae voluptate ratione fugiat similique nostrum debitis dolor, ipsam quo officiis quas
-                                                                  necessitatibus? Magnam eveniet iure, eligendi est ullam consectetur repellat quis doloremque ad perspiciatis assumenda ducimus distinctio quaerat sit repudiandae illo praesentium modi dolor. Veritatis aperiam, minima natus assumenda
-                                                                  ipsum voluptatem reprehenderit? Possimus nobis, voluptate, blanditiis, temporibus ad nostrum corrupti quos corporis voluptas tempora aliquid magnam quia voluptatem rerum odit fugiat facere necessitatibus adipisci sunt. Veritatis architecto,
-                                                                  perferendis labore sit nobis eaque perspiciatis et iusto, in doloribus est!</p>
-                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vel reiciendis voluptatibus assumenda tempora vitae aut adipisci harum, corporis in id perferendis quia repellat reprehenderit temporibus aspernatur ab ullam magni error
-                                                                  consectetur, facilis inventore ipsum, veniam voluptas. Error laboriosam atque quisquam facere esse repellat consectetur quos eum, quaerat blanditiis saepe?</p>
-                                                              </div>
-                                                              <hr />
-                                                              <div class="product-faq mb-5">
-                                                                <h2 class="text-light" class="mb-3">Questions & Answers</h2>
-                                                                <div class="main-questions d-inline" data-container="body" data-toggle="popover" data-placement="right" data-content="Are you in doubt? these shortcuts can help you!">
-                                                                  <a href="#" class="btn btn-outline-primary">Cost and Delivery time</a>
-                                                                  <a href="#" class="btn btn-outline-primary">Payment options</a>
-                                                                </div>
-                                                              </div>
-                                                              <div class="product-comments">
-                                                                      <h5 class="text-light" class="mb-2">Got questions? We are here to help.</h5>
-                                                                      <form action="" class="form-inline mb-5">
-                                                                  <textarea name="" id="" cols="50" rows="2" class="form-control mr-4" placeholder="Ask a question"></textarea><button class="btn btn-lg btn-primary">Submit Your Question</button>
-                                                                </form>
-                                                                <h5 class="text-light" class="mb-5">General Questions</h5>
-                                                                <ol class="list-unstyled last-questions-list">
-                                                                  <li><i class="fa fa-comment"></i> <span> Could I pay with a credit card?</span></li>
-                                                                  <li><i class="fa fa-comment"></i> <span> What is the delivery time?</span></li>
-                                                                </ol>
-                                                              </div>
-                                                            </div>
-                                    </div>                                 
-                                  </div>
-                                </div>
+                                                        </div>
+                                                        <hr/>
+                                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-emerald-green active" id="description-emerald-green-tab" data-toggle="tab" href="#description-emerald-green" role="tab" aria-controls="description-emerald-green" aria-selected="true">Description</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-emerald-green" id="reviews-emerald-green-tab" data-toggle="tab" href="#reviews-emerald-green" role="tab" aria-controls="reviews-emerald-green" aria-selected="false">Reviews</a>
+                                          </li>
+                                          <li class="nav-item">
+                                            <a class="nav-link text-light bg-emerald-green" id="questions-answers-emerald-green-tab" data-toggle="tab" href="#questions-answers-emerald-green" role="tab" aria-controls="questions-answers-emerald-green" aria-selected="false">Questions & Answers</a>
+                                          </li>
+                                        </ul>
+                                        <div class="tab-content bg-dark" id="myTabContent">
+                                          <div class="tab-pane fade show active" id="description-emerald-green" role="tabpanel" aria-labelledby="description-emerald-green-tab">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit nemo reiciendis quisquam a quis delectus consectetur ipsa eligendi aliquam earum in vitae voluptate ratione fugiat similique nostrum debitis dolor, ipsam quo officiis quas
+                                              necessitatibus? Magnam eveniet iure, eligendi est ullam consectetur repellat quis doloremque ad perspiciatis assumenda ducimus distinctio quaerat sit repudiandae illo praesentium modi dolor. Veritatis aperiam, minima natus assumenda
+                                              ipsum voluptatem reprehenderit? Possimus nobis, voluptate, blanditiis, temporibus ad nostrum corrupti quos corporis voluptas tempora aliquid magnam quia voluptatem rerum odit fugiat facere necessitatibus adipisci sunt. Veritatis architecto,
+                                              perferendis labore sit nobis eaque perspiciatis et iusto, in doloribus est!</p>
+                                          </div>
+                                          <div class="tab-pane fade" id="reviews-emerald-green" role="tabpanel" aria-labelledby="reviews-emerald-green-tab">
+                                              
+                                          </div>
+                                          <div class="tab-pane fade" id="questions-answers-emerald-green" role="tabpanel" aria-labelledby="questions-answers-emerald-green-tab">
+                                              <div class="product-faq mb-5">
+                                                  <h2 class="text-light" class="mb-3">Questions & Answers</h2>
+                                                  <div class="main-questions d-inline" data-container="body" data-toggle="popover" data-placement="right" data-content="Are you in doubt? these shortcuts can help you!">
+                                                    <a href="#" class="btn btn-outline-primary">Cost and Delivery time</a>
+                                                    <a href="#" class="btn btn-outline-primary">Payment options</a>
+                                                  </div>
+                                                </div>
+                                                <div class="product-comments">
+                                                        <h5 class="text-light" class="mb-2">Got questions? We are here to help.</h5>
+                                                        <form action="" class="form-inline mb-5">
+                                                    <textarea name="" id="" cols="50" rows="2" class="form-control mr-4" placeholder="Ask a question"></textarea><button class="btn btn-lg btn-primary">Submit Your Question</button>
+                                                  </form>
+                                                  <h5 class="text-light" class="mb-5">General Questions</h5>
+                                                  <ol class="list-unstyled last-questions-list">
+                                                    <li><i class="fa fa-comment"></i> <span> Could I pay with a credit card?</span></li>
+                                                    <li><i class="fa fa-comment"></i> <span> What is the delivery time?</span></li>
+                                                  </ol>
+                                                </div>
+                                          </div>
+                                        </div>
+                                </div>                                 
                               </div>
                             </div>
-                          </div>
-                        </main>            
-                      </div>
+                        </div>
                     </div>
-                  
                   </div>
                 </div>
-          </div>
-            
+              </div>
+            </section>
+
           <footer class="section footer-classic border" style="background: #000;">
               <div class="container">
                 <div class="row row-30">
