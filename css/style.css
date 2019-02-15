@@ -8378,8 +8378,8 @@ textarea.form-control {
   margin: 0 10px 0 0;
   display: inline-block; }
   .ftco-footer-social li a {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     display: block;
     float: left;
     position: relative;
@@ -9677,8 +9677,8 @@ width: 640px;
 .pricingTable5 .amount{display:inline-block;font-size:40px;font-weight:600;line-height:65px}
 .pricingTable5 .amount span{display:inline-block;font-size:30px;font-weight:400;vertical-align:top;margin-top:-7px}
 .pricingTable5 .month{display:block;font-size:16px;line-height:0}
-.pricingTable5 .pricing-content{padding:25px 0 0 65px;margin-bottom:20px;list-style:none;text-align:left;transition:all .3s ease 0s}
-.pricingTable5 .pricing-content li{padding:7px 0;font-size:16px;color:grey;position:relative}
+.pricingTable5 .pricing-content{padding:25px 0 0 60px;margin-bottom:20px;list-style:none;text-align:left;transition:all .3s ease 0s}
+.pricingTable5 .pricing-content li{padding:4px 0;font-size:16px;color:grey;position:relative}
 .pricingTable5 .pricing-content li.disable:before,.pricingTable5 .pricing-content li:before{content:"\f00c";font-family:"Font Awesome 5 Free";font-weight:900;width:25px;height:25px;line-height:25px;border-radius:50%;background:#98c458;text-align:center;color:#fff;position:absolute;left:-50px}
 .pricingTable5 .pricing-content li.disable:before{content:"\f00d";background:#fe6c6c}
 .pricingTable5 .pricingTable-signup{display:inline-block;width:70%;height:50px;line-height:50px;font-size:22px;font-weight:700;color:var(--pricingTable-yellow);text-transform:uppercase;border:2px solid var(--pricingTable-yellow);margin:0 auto 10px;position:relative;transition:all .3s ease 0s}
