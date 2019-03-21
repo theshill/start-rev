@@ -7641,12 +7641,12 @@ h1, h2, h3, h4, h5,
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               font-size: 30px; } }
         .owl-carousel.home-slider .slider-item .slider-text p {
-          font-size: 20px;
+          font-size: 18px;
           line-height: 1.5;
           font-weight: 300;
           color: white; }
           .owl-carousel.home-slider .slider-item .slider-text p.sub-p {
-            font-weight: 400; }
+            font-weight: 300; }
           .owl-carousel.home-slider .slider-item .slider-text p strong {
             font-weight: 700; }
             .owl-carousel.home-slider .slider-item .slider-text p strong a {
