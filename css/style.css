@@ -9729,7 +9729,9 @@ width: 640px;
   color: rgba(255, 255, 255, 0.8);
 }
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-  color: #ffffff;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
 }
 .nav-list li {
   padding-top: 5px;
